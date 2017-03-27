@@ -1,0 +1,49 @@
+body {
+    font-family: "Noto Sans Japanese";
+}
+
+.header_logo {
+    height: 48px;
+    width:  auto;
+}
+
+.article-padding {
+    padding: 24px 24px;
+}
+
+.article-image {
+    width: auto;
+    height: 300px;
+}
+
+div.allow-scroll {
+    overflow: auto;
+}
+
+table.fill-width {
+    align-items: center;
+    width: 100%;
+}
+
+th.centered {
+    text-align: center;
+}
+
+td.centered {
+    text-align: center;
+}
+
+.navigation-subtitle {
+    display: block;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 16px 60px 16px 40px;
+    margin: 0;
+    color: #757575;
+    font-weight: bold;
+}
+
+.navigation-child-link {
+    list-style: none;
+}

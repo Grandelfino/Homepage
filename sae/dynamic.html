@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/material.css">
+    <link rel="stylesheet" href="../css/sae/static.css">
+    <script src="../js/material.js"></script>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet"/>
+
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="../img/favicon.png">
+    <link rel="icon" sizes="192x192" href="../img/favicon.png">
+
+
+    <title>Grandelfino - Dynamic Events</title>
+
+    <!--Google Analytics-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-89305825-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+<div class="mdl-layout__container">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer">
+        <header class="mdl-layout__header mdl-color--white">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title"><a href="../index.html"><img src="../img/Logo.png" alt="TeamLogo" class="header_logo"></a></span>
+            </div>
+        </header>
+
+        <div class="mdl-layout__drawer">
+            <div class="mdl-layout__drawer-button mdl-layout__drawer-button--close mdl-color-text--blue-800">
+                <i class="material-icons">menu</i>
+            </div>
+            <span class="mdl-layout-title">動的審査</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link navigation-subtitle" href="../index.html">Home</a>
+                <span class="navigation-subtitle">Grandelfino</span>
+                <ul class="navigation-child-link">
+                    <li><a class="mdl-navigation__link" href="../grandelfino/about_us.html">チーム紹介</a></li>
+                    <li><a class="mdl-navigation__link" href="../grandelfino/history.html">大会成績</a></li>
+                    <li><a class="mdl-navigation__link" href="../grandelfino/members.html">メンバー</a></li>
+                    <li><a class="mdl-navigation__link" href="http://www.grandelfino.net/blog" target="_blank">活動記録</a></li>
+                    <li><a class="mdl-navigation__link" href="../grandelfino/contact_us.html">お問い合わせ</a></li>
+                </ul>
+                <span class="navigation-subtitle">Formula SAE</span>
+                <ul class="navigation-child-link">
+                    <li><a class="mdl-navigation__link" href="../sae/about_sae.html">学生フォーミュラとは</a></li>
+                    <li><a class="mdl-navigation__link" href="../sae/static.html">静的種目</a></li>
+                    <li><a class="mdl-navigation__link mdl-navigation__link--current" href="#">動的種目</a></li>
+                </ul>
+                <a class="mdl-navigation__link navigation-subtitle" href="../machines/about_machines.html">マシン紹介</a>
+                <a class="mdl-navigation__link navigation-subtitle" href="../sponsors/sponsors.html">スポンサー</a>
+                <a class="mdl-navigation__link navigation-subtitle" href="../policy.html">サイトポリシー</a>
+            </nav>
+        </div>
+
+        <main class="mdl-layout__content">
+            <div class="mdl-grid mdl-grid--no-spacing">
+                <div class="mdl-cell mdl-cell--hide-phone mdl-cell--hide-tablet mdl-cell--2-col-desktop"></div>
+                <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop mdl-shadow--4dp article-padding">
+                    <div class="article-padding">
+                        <h3>動的審査</h3>
+                        <p>
+                        動的審査では製作したマシンを実際に走行させ、4種類の審査でマシンの実性能を競います。
+                        </p>
+                    </div>
+                    <div class="mdl-grid mdl-grid--no-spacing">
+                        <!--Acc-->
+                        <div class="mdl-cell mdl-cell--hide-phone mdl-cell--hide-tablet mdl-cell--4-col-desktop centered">
+                            <img src="../img/sae/Acc.jpg" class="article-image">
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop article-padding">
+                            <h4>アクセラレーション</h4>
+                            <p>
+                                75mの直線コースにおいて、静止状態から加速し、タイムを計測することで、マシンの加速性能を競います。
+                                各チーム２名のドライバーが２回ずつ走行でき、最も速いタイムが記録されます。
+                            </p>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--hide-desktop centered">
+                            <img src="../img/sae/Acc.jpg" class="article-image">
+                        </div>
+
+                        <!--Skidpad-->
+                        <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop article-padding">
+                            <h4>スキッドパッド</h4>
+                            <p>
+                                8の字状のコースを走行し、マシンのコーナリング性能を競います。
+                                アクセラレーションと同様、各チーム２名のドライバーが２回ずつ走行でき、最も速いタイムが記録されます。
+                            </p>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--4-col-desktop centered">
+                            <img src="../img/sae/Skidpad.jpg" class="article-image">
+                        </div>
+
+                        <!--AutoCross-->
+                        <div class="mdl-cell mdl-cell--hide-phone mdl-cell--hide-tablet mdl-cell--4-col-desktop centered">
+                            <img src="../img/sae/Autocross.JPG" class="article-image">
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop article-padding">
+                            <h4>オートクロス</h4>
+                            <p>
+                                直線・ターン・スラローム・シケインなどによる約800mのコースを2周走行し、マシンの総合的な性能を競います。
+                                各チーム２名のドライバーが２回ずつ走行でき、最も速いタイムが記録されます。
+                                オートクロスのタイムにより、４日目以降に行われるエンデュランス競技の出走順が決まります。
+                            </p>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--hide-desktop centered">
+                            <img src="../img/sae/Autocross.JPG" class="article-image">
+                        </div>
+
+                        <!--Endurance-->
+                        <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop article-padding">
+                            <h4>エンデュランス</h4>
+                            <p>
+                                オートクロスと同様のコースを２名のドライバーで10周ずつ、計20周を連続で走行する動的種目の花形競技です。
+                                マシンの総合的な性能及び信頼性・耐久性を競います。
+                                20周の平均ラップタイムが記録されます。
+                            </p>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col-phone mdl-cell--8-col-tablet mdl-cell--4-col-desktop centered">
+                            <img src="../img/sae/Endurance.jpg" class="article-image">
+                        </div>
+
+                        <!--&lt;!&ndash;FuelConsumption&ndash;&gt;-->
+                        <!--<div class="mdl-cell mdl-cell&#45;&#45;hide-phone mdl-cell&#45;&#45;hide-tablet mdl-cell&#45;&#45;4-col-desktop centered">-->
+                            <!--FuelConsumption-->
+                        <!--</div>-->
+                        <!--<div class="mdl-cell mdl-cell&#45;&#45;6-col-phone mdl-cell&#45;&#45;8-col-tablet mdl-cell&#45;&#45;8-col-desktop article-padding">-->
+                            <!--<h4>燃費</h4>-->
+                            <!--<p>-->
+                                <!--エンデュランスにおいて消費した燃料の量を測ることにより、マシンの燃費を競います。-->
+                            <!--</p>-->
+                        <!--</div>-->
+                        <!--<div class="mdl-cell mdl-cell&#45;&#45;6-col-phone mdl-cell&#45;&#45;8-col-tablet mdl-cell&#45;&#45;hide-desktop centered">-->
+                            <!--FuelConsumption-->
+                        <!--</div>-->
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--hide-phone mdl-cell--hide-tablet mdl-cell--2-col-desktop"></div>
+            </div>
+
+            <footer class="mdl-mega-footer">
+                <div class="mdl-mega-footer__middle-section">
+                    <div class="mdl-mega-footer__drop-down-section">
+                        <h1 class="mdl-mega-footer__heading">Grandelfino</h1>
+                        <ul class="mdl-mega-footer__link-list">
+                            <li><a href="../grandelfino/about_us.html">About us</a></li>
+                            <li><a href="../grandelfino/history.html">History</a></li>
+                            <li><a href="../grandelfino/members.html">Members</a></li>
+                            <li><a href="../grandelfino/contact_us.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="mdl-mega-footer__drop-down-section">
+                        <h1 class="mdl-mega-footer__heading">Formula SAE</h1>
+                        <ul class="mdl-mega-footer__link-list">
+                            <li><a href="../sae/about_sae.html">About Formula SAE</a></li>
+                            <li><a href="../sae/static.html">Static Events</a></li>
+                            <li><a href="#">Dynamic Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mdl-mega-footer__bottom-section">
+                    <div><a href="../index.html" class="mdl-logo" style="text-decoration: none">Top</a></div>
+                    <ul class="mdl-mega-footer__link-list">
+                        <li><a href="../machines/about_machines.html">Machine Introduction</a></li>
+                        <li><a href="../sponsors/sponsors.html">Sponsors</a></li>
+                        <li><a href="../policy.html">Site Policy</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+
+    </div>
+</div>
+</body>
+</html>

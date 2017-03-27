@@ -1,0 +1,103 @@
+body {
+    font-family: "Noto Sans Japanese";
+}
+
+.header_logo {
+    height: 48px;
+    width:  auto;
+}
+
+
+@media (min-width: 840px){
+    #sae-pic {
+        background: url(../../img/sae/14th_photo.jpg) no-repeat bottom / cover;
+        width: 100%;
+        height: 850px;
+    }
+
+    div.margin-1 {
+        margin-top: 400px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 839px) {
+    #sae-pic {
+        background: url(../../img/sae/14th_photo.jpg) no-repeat bottom / cover;
+        width: 100%;
+        height: 500px;
+    }
+
+    div.margin-1 {
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 479px) {
+    #sae-pic {
+        background: url(../../img/sae/14th_photo.jpg) no-repeat bottom / cover;
+        width: 100%;
+        height: 450px;
+    }
+
+    div.margin-1 {
+        margin-top: 225px;
+    }
+}
+
+#static {
+    height: auto;
+    max-width: 100%;
+}
+
+#dynamic {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+.article-padding {
+    padding: 24px 24px;
+}
+
+.article-image {
+    height: auto;
+    max-width: 100%;
+}
+
+.hover-shadow {
+    transition: box-shadow 0.5s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+div.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    height: auto;
+    width: 100%;
+}
+
+div.centered img {
+    width: 100%;
+    height: auto;
+}
+
+.navigation-subtitle {
+    display: block;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 16px 60px 16px 40px;
+    margin: 0;
+    color: #757575;
+    font-weight: bold;
+}
+
+.navigation-child-link {
+    list-style: none;
+}

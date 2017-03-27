@@ -1,0 +1,315 @@
+body {
+    font-family: "Noto Sans Japanese";
+}
+
+.header_logo {
+    height: 48px;
+    width:  auto;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
+    background-color: rgb(13, 71, 161);
+}
+
+div.sponsor-img {
+    background: no-repeat center / contain;
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+}
+
+.card-spacer {
+    width: 100%;
+    height: 50px;
+}
+
+.mdl-card--border {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+}
+
+#itw_plexus {
+    background-image: url("../../img/sponsors/itw_plexus.jpg");
+}
+
+#igus {
+    background-image: url("../../img/sponsors/igus.jpg");
+}
+
+#umihira {
+    background-image: url("../../img/sponsors/umihira.gif");
+}
+
+#avo {
+    background-image: url("../../img/sponsors/avo.gif");
+}
+
+#exedy {
+    background-image: url("../../img/sponsors/exedy.gif");
+}
+
+#ntn {
+    background-image: url("../../img/sponsors/ntn.gif");
+}
+
+#oxiso {
+    background-image: url("../../img/sponsors/oxiso.jpg");
+}
+
+#kakie {
+    background-image: url("../../img/sponsors/kakieracing.gif");
+}
+
+#kinokuni {
+    background-image: url("../../img/sponsors/kinokuni.gif");
+}
+
+#kinoshita {
+    background-image: url("../../img/sponsors/kinosita_s.gif");
+}
+
+#kyoto-teisan {
+    background-image: url("../../img/sponsors/kyoto_teisan.png");
+}
+
+#kyoto-wheel {
+    background-image: url("../../img/sponsors/kyoto_wheel_center.gif");
+}
+
+#kyowa {
+    background-image: url("../../img/sponsors/kyowa.gif");
+}
+
+#krs {
+    background-image: url("../../img/sponsors/kiniki_rent.gif");
+}
+
+#kik {
+    background-image: url("../../img/sponsors/KIK.jpg");
+}
+
+#cybernet {
+    background-image: url("../../img/sponsors/cybernet.gif");
+}
+
+#gat {
+    background-image: url("../../img/sponsors/gat.gif");
+}
+
+#jfe {
+    background-image: url("../../img/sponsors/jfe.gif");
+}
+
+#shorai {
+    background-image: url("../../img/sponsors/shorai.png");
+}
+
+#suzuki {
+    background-image: url("../../img/sponsors/suzuki.gif");
+}
+
+#sumitomo {
+    background-image: url("../../img/sponsors/sumitomo.gif");
+}
+
+#daito {
+    background-image: url("../../img/sponsors/daito_radiator.gif");
+}
+
+#daiwa {
+    background-image: url("../../img/sponsors/daiwahaguruma.png");
+}
+
+#takata {
+    background-image: url("../../img/sponsors/takata.gif");
+}
+
+#dassault {
+    background-image: url("../../img/sponsors/dassaut_systems.jpg");
+}
+
+#dmm {
+    background-image: url("../../img/sponsors/dmm.make.png");
+}
+
+#tamadic {
+    background-image: url("../../img/sponsors/tamadic.gif");
+}
+
+#tango {
+    background-image: url("../../img/sponsors/tango.gif");
+}
+
+#tango-giken {
+    background-image: url("../../img/sponsors/tango_giken.gif");
+}
+
+#daido {
+    background-image: url("../../img/sponsors/DID-Team-Logo-rd-blk2.gif");
+}
+
+#thk {
+    background-image: url("../../img/sponsors/thk.gif");
+}
+
+#tohnichi {
+    background-image: url("../../img/sponsors/tohnichi.gif");
+}
+
+#nicole {
+    background-image: url("../../img/sponsors/nicole_group.jpg");
+}
+
+#nissyo {
+    background-image: url("../../img/sponsors/nisyo.gif");
+}
+
+#nissou {
+    background-image: url("../../img/sponsors/nisso-1.png");
+}
+
+#nisshin {
+    background-image: url("../../img/sponsors/nissin.gif");
+}
+
+#nifco {
+    background-image: url("../../img/sponsors/nifco.jpg");
+}
+
+#vi-grade {
+    background-image: url("../../img/sponsors/vigrade.PNG");
+}
+
+#nutec {
+    background-image: url("../../img/sponsors/nutec.gif");
+}
+
+#hi-lex {
+    background-image: url("../../img/sponsors/hi-lex.gif");
+}
+
+#hilltop {
+    background-image: url("../../img/sponsors/hilltop.gif");
+}
+
+#biwako {
+    background-image: url("../../img/sponsors/biwa.gif");
+}
+
+#phoenix {
+    background-image: url("../../img/sponsors/phoenixs.gif");
+}
+
+#fukai {
+    background-image: url("../../img/sponsors/fukai.PNG");
+}
+
+#fuji {
+    background-image: url("../../img/sponsors/fuzi_seimitsu.jpg");
+}
+
+#plus-mu {
+    background-image: url("../../img/sponsors/plusmu.jpg");
+}
+
+#project-mu {
+    background-image: url("../../img/sponsors/projectmyu.png");
+}
+
+#matsuda {
+    background-image: url("../../img/sponsors/matsuda.PNG");
+}
+
+#matsumoto {
+    background-image: url("../../img/sponsors/matumoto.gif");
+}
+
+#maruhachi {
+    background-image: url("../../img/sponsors/maruhachi.png");
+}
+
+#misumi {
+    background-image: url("../../img/sponsors/misumi.gif");
+}
+
+#kit {
+    background-image: url("../../img/sponsors/kit.gif");
+}
+
+#syoukikai {
+    background-image: url("../../img/sponsors/syoukikai.gif");
+}
+
+#koujyou {
+    background-image: url("../../img/sponsors/no-image.png");
+}
+
+#hamada {
+    background-image: url("../../img/sponsors/no-image.png");
+}
+
+#nakai {
+    background-image: url("../../img/sponsors/no-image.png");
+}
+
+#daiwa {
+    background-image: url("../../img/sponsors/daiwahaguruma.png");
+}
+
+#nitto {
+    background-image: url("../../img/sponsors/nitto.png");
+}
+
+#henkel {
+    background-image: url("../../img/sponsors/henkel.png");
+}
+
+#rapidharness {
+    background-image: url("../../img/sponsors/rapidharness.png");
+}
+
+.sponsor-grid {
+    width: 100%;
+}
+
+.article-padding {
+    padding: 24px 24px;
+}
+
+.article-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-margin {
+    padding: 4px 4px
+}
+
+.font-size-x-large {
+    font-size: 48px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.mdl-layout__tab-panel {
+    flex: 1;
+}
+
+.navigation-subtitle {
+    display: block;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 16px 60px 16px 40px;
+    margin: 0;
+    color: #757575;
+    font-weight: bold;
+}
+
+.navigation-child-link {
+    list-style: none;
+}

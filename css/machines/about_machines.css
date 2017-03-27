@@ -1,0 +1,138 @@
+body {
+    font-family: "Noto Sans Japanese";
+}
+
+.header_logo {
+    height: 48px;
+    width:  auto;
+}
+
+div.gdf-11-img {
+    background: url('../../img/machines/GDF-11.png') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+div.gdf-10-img {
+    background: url('../../img/machines/GDF-10.png') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+div.gdf-09-img {
+    background: url('../../img/machines/GDF-09.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+div.gdf-08-img {
+    background: url('../../img/machines/GDF-08.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+div.gdf-07-img {
+    background: url('../../img/machines/GDF-07.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+div.gdf-06-img {
+    background: url('../../img/machines/GDF-06.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+div.gdf-05-img {
+    background: url('../../img/machines/GDF-05.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+div.gdf-04-img {
+    background: url('../../img/machines/GDF-04.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+div.gdf-03-img {
+    background: url('../../img/machines/GDF-03.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+
+div.gdf-02-img {
+    background: url('../../img/machines/GDF-02.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+
+div.gdf-01-img {
+    background: url('../../img/machines/GDF-01.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
+
+div.fill-width {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+div.allow-scroll {
+    overflow: auto;
+}
+
+table.fill-width {
+    align-items: center;
+    width: 100%;
+}
+
+th.centered {
+    text-align: center;
+}
+
+td.centered {
+    text-align: center;
+}
+
+.article-padding {
+    padding: 24px 24px;
+}
+
+.card-margin {
+    height: 8px;
+}
+
+.font-size-x-large {
+    font-size: 48px;
+}
+
+.navigation-subtitle {
+    display: block;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 16px 60px 16px 40px;
+    margin: 0;
+    color: #757575;
+    font-weight: bold;
+}
+
+.navigation-child-link {
+    list-style: none;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c493e425-57df-402e-a41f-b70c562b10da" name="Azure" url="https://grandelfino-web.azurewebsites.net/">
+        <fileTransfer host="waws-prod-os1-003.ftp.azurewebsites.windows.net" port="21" rootFolder="/site/wwwroot">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="da6997a6-24d5-4f69-bedf-c59a1a6ccb85" name="CoreServer" url="http://www.grandelfino.net">
+        <fileTransfer host="m20.coreserver.jp" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
