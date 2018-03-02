@@ -233,6 +233,10 @@ div.sponsor-img {
     background-image: url("../../img/sponsors/misumi.gif");
 }
 
+#marubeni {
+    background-image: url("../../img/sponsors/marubeni.jpg");;
+}
+
 #kit {
     background-image: url("../../img/sponsors/kit.gif");
 }
@@ -267,6 +271,14 @@ div.sponsor-img {
 
 #rapidharness {
     background-image: url("../../img/sponsors/rapidharness.png");
+}
+
+#techno-guild {
+    background-image: url("../../img/sponsors/technoguild.jpg");
+}
+
+#sekisui_kasei {
+    background-image: url("../../img/sponsors/sekisui_kasei.png")
 }
 
 .sponsor-grid {
