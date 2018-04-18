@@ -113,8 +113,8 @@ div.sponsor-img {
     background-image: url("../../img/sponsors/sumitomo.gif");
 }
 
-#daito {
-    background-image: url("../../img/sponsors/daito_radiator.gif");
+#ishihara {
+    background-image: url("../../img/sponsors/no-image.png");
 }
 
 #daiwa {
@@ -235,6 +235,14 @@ div.sponsor-img {
 
 #marubeni {
     background-image: url("../../img/sponsors/marubeni.jpg");;
+}
+
+#molex{
+    background-image: url("../../img/sponsors/molex.jpg");
+}
+
+#tcm{
+    background-image: url("../../img/sponsors/tcm.jpg");
 }
 
 #kit {
