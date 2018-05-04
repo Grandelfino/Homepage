@@ -277,8 +277,8 @@ div.sponsor-img {
     background-image: url("../../img/sponsors/henkel.png");
 }
 
-#rapidharness {
-    background-image: url("../../img/sponsors/rapidharness.png");
+#mentorgraphics {
+    background-image: url("../../img/sponsors/mentorgraphics.png");
 }
 
 #techno-guild {
@@ -287,6 +287,9 @@ div.sponsor-img {
 
 #sekisui_kasei {
     background-image: url("../../img/sponsors/sekisui_kasei.png")
+}
+#mesona{
+    background-image: url("../../img/sponsors/mesona.jpg")
 }
 
 .sponsor-grid {
