@@ -29,6 +29,10 @@ div.sponsor-img {
     height: 50px;
 }
 
+#altium{
+    background-image: url("../../img/sponsors/altium.png");
+}
+
 #itw_plexus {
     background-image: url("../../img/sponsors/itw_plexus.jpg");
 }
@@ -179,6 +183,9 @@ div.sponsor-img {
 
 #vi-grade {
     background-image: url("../../img/sponsors/vigrade.PNG");
+}
+#vsn{
+    background-image: url("../../img/sponsors/vsn.png");
 }
 
 #nutec {

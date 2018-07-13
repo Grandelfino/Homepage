@@ -2,28 +2,11 @@
 <project version="4">
   <component name="PublishConfigData" serverName="CoreServer">
     <serverData>
-      <paths name="Azure">
+      <paths name="CoreServer">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
-        </serverdata>
-      </paths>
-      <paths name="CoreServer">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-          <excludedPaths>
-            <excludedPath path="/public_html/blog-1488281593" />
-            <excludedPath path="/public_html/blog" />
-            <excludedPath path="/public_html/closed" />
-            <excludedPath path="/public_html/gallery" />
-            <excludedPath path="/public_html/grandelfino.net" />
-            <excludedPath path="/public_html/log" />
-            <excludedPath path="/public_html/ml.grandelfino.net" />
-            <excludedPath path="/public_html/old" />
-          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
