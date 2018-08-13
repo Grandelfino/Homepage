@@ -298,7 +298,27 @@ div.sponsor-img {
 #mesona{
     background-image: url("../../img/sponsors/mesona.jpg")
 }
-
+#cast{
+    background-image: url("../../img/sponsors/CAST_logo.jpg");
+}
+#hpcs{
+    background-image: url("../../img/sponsors/HPCS_logo.jpg");
+}
+#mahle{
+    background-image: url("../../img/sponsors/Mahle_blue.png");
+}
+#mitate{
+    background-image: url("../../img/sponsors/no-image.png");
+}
+#uchida{
+    background-image: url("../../img/sponsors/no-image.png");
+}
+#voltex{
+    background-image: url("../../img/sponsors/no-image.png");
+}
+#siemens{
+    background-image: url("../../img/sponsors/no-image.png");
+}
 .sponsor-grid {
     width: 100%;
 }
