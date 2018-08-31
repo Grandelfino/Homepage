@@ -314,10 +314,16 @@ div.sponsor-img {
     background-image: url("../../img/sponsors/UCHIDA_logo_b.jpg");
 }
 #voltex{
-    background-image: url("../../img/sponsors/no-image.png");
+    background-image: url("../../img/sponsors/VOLTEX.jpg");
 }
 #siemens{
     background-image: url("../../img/sponsors/sie-logo-layer-claim-petrol-cmyk.jpg");
+}
+#oz{
+    background-image: url("../../img/sponsors/OZ RACING.jpg");
+}
+#hashimoto{
+    background-image: url("../../img/sponsors/KW_Logo_4C_Glossy.png");
 }
 .sponsor-grid {
     width: 100%;
