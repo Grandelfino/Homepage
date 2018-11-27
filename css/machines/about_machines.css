@@ -7,6 +7,13 @@ body {
     width:  auto;
 }
 
+div.gdf-13-img{
+    background: url('../../img/machines/GDF-13.jpg') no-repeat center / cover;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+}
+
 div.gdf-12-img{
     background: url('../../img/machines/GDF-12.jpg') no-repeat center / cover;
     height: 400px;
