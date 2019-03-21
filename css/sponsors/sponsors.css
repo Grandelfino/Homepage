@@ -33,6 +33,10 @@ div.sponsor-img {
     background-image: url("../../img/sponsors/altium.png");
 }
 
+#analog_devices{
+    background-image: url("../../img/sponsors/analog-devices.png");
+}
+
 #itw_plexus {
     background-image: url("../../img/sponsors/itw_plexus.jpg");
 }
