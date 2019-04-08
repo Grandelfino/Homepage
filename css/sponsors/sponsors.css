@@ -36,6 +36,9 @@ div.sponsor-img {
 #analog_devices{
     background-image: url("../../img/sponsors/analog-devices.png");
 }
+#altechno{
+    background-image: url("../../img/sponsors/no-image.png");
+}
 
 #itw_plexus {
     background-image: url("../../img/sponsors/itw_plexus.jpg");
@@ -104,7 +107,9 @@ div.sponsor-img {
 #gat {
     background-image: url("../../img/sponsors/gat.gif");
 }
-
+#gifu-gear{
+    background-image: url("../../img/sponsors/gifu-gear.png");
+}
 #jfe {
     background-image: url("../../img/sponsors/jfe.gif");
 }
@@ -122,11 +127,20 @@ div.sponsor-img {
 }
 
 #ishihara {
-    background-image: url("../../img/sponsors/no-image.png");
+    background-image: url("../../img/sponsors/ishihara.gif");
+}
+#iwai-kigata{
+    background-image: url("../../img/sponsors/iwai-kigata.png");
+}
+#blenny{
+    background-image: url("../../img/sponsors/blenny.jpg");
 }
 
 #daiwa {
     background-image: url("../../img/sponsors/daiwahaguruma.png");
+}
+#daihen{
+    background-image: url("../../img/sponsors/no-image.png");
 }
 
 #takata {
@@ -211,6 +225,9 @@ div.sponsor-img {
 #phoenix {
     background-image: url("../../img/sponsors/phoenixs.gif");
 }
+#fc-design{
+    background-image: url("../../img/sponsors/no-image.png");
+}
 
 #fukai {
     background-image: url("../../img/sponsors/fukai.PNG");
@@ -246,6 +263,9 @@ div.sponsor-img {
 
 #marubeni {
     background-image: url("../../img/sponsors/marubeni.jpg");;
+}
+#moto-zen{
+    background-image: url("../../img/sponsors/motozen.png");
 }
 
 #molex{
@@ -326,8 +346,14 @@ div.sponsor-img {
 #oz{
     background-image: url("../../img/sponsors/OZ RACING.jpg");
 }
+#osg{
+    background-image: url("../../img/sponsors/osg.png");
+}
 #hashimoto{
     background-image: url("../../img/sponsors/KW_Logo_4C_Glossy.png");
+}
+#wit{
+    background-image: url("../../img/sponsors/no-image.png");
 }
 .sponsor-grid {
     width: 100%;
