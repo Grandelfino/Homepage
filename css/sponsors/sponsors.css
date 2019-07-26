@@ -29,6 +29,9 @@ div.sponsor-img {
     height: 50px;
 }
 
+#advics{
+    background-image: url("../../img/sponsors/Advics.png");
+}
 #altium{
     background-image: url("../../img/sponsors/altium.png");
 }
@@ -41,6 +44,9 @@ div.sponsor-img {
 }
 #autobacs{
     background-image: url("../../img/sponsors/autobacs.gif");
+}
+#altair{
+    background-image: url("../../img/sponsors/Altair.jpg");
 }
 
 #itw_plexus {
@@ -218,7 +224,7 @@ div.sponsor-img {
 }
 
 #hilltop {
-    background-image: url("../../img/sponsors/hilltop.gif");
+    background-image: url("../../img/sponsors/hilltop.png");
 }
 
 #biwako {
