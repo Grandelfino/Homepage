@@ -135,6 +135,14 @@ div.sponsor-img {
     background-image: url("../../img/sponsors/sumitomo.gif");
 }
 
+#saginomiya {
+    background-image: url("../../img/sponsors/saginomiya.jpg");
+}
+
+#saima {
+    background-image: url("../../img/sponsors/saima.png");
+}
+
 #ishihara {
     background-image: url("../../img/sponsors/ishihara.gif");
 }
@@ -252,6 +260,11 @@ div.sponsor-img {
 
 #project-mu {
     background-image: url("../../img/sponsors/projectmyu.png");
+}
+
+#rpv {
+    background-image: url("../../img/sponsors/RPV.svg");
+    background-color: rgba(48,48,48,0.9);
 }
 
 #matsuda {
